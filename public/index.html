@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+  <meta charset="utf-8">
+  <title>匠疤 Craftsmark PWA</title>
+  <link rel="manifest" href="./manifest.json">
+</head>
+<body>
+  <h1>匠疤 PWA</h1>
+  <p>欢迎使用匠疤应用！</p>
+  <script>
+    if ('serviceWorker' in navigator) {
+      navigator.serviceWorker.register('/sw.js');
+    }
+  </script>
+</body>
+</html>
