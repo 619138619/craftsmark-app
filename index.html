@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="manifest" href="public/manifest.json">
+  <title>匠疤 Craftsmark</title>
+</head>
+<body>
+  <h1>匠疤 Craftsmark PWA</h1>
+  <p>应用正在建设中。</p>
+  <script>
+    if ('serviceWorker' in navigator) {
+      navigator.serviceWorker.register('/public/sw.js');
+    }
+  </script>
+</body>
+</html>
